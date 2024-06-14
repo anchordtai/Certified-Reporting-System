@@ -1,0 +1,48 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+img {
+  margin-left: 100px;
+}
